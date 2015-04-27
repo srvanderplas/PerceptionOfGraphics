@@ -57,7 +57,7 @@ rm(list=ls())
 wd <- getwd()
 
 library(knitr)
-opts_chunk$set(fig.path='Figure/fig-', cache.path='cache/', fig.align='center', fig.width=5, fig.height=5, fig.show='hold', par=TRUE, cache=TRUE, concordance=TRUE, autodep=TRUE, root.dir="../")
+opts_chunk$set(fig.path='Figure/fig-', cache.path='cache/', fig.align='center', fig.width=5, fig.height=5, fig.show='hold', par=TRUE, cache=TRUE, concordance=TRUE, autodep=TRUE, root.dir="../", message=F, warning=F, error=F)
 datadir <- "Data/"
 imgdir <- "Figure/"
 codedir <- "Code/"
